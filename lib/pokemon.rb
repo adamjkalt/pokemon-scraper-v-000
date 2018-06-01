@@ -20,7 +20,7 @@ def self.find(id, db)
   Pokemon.new(id: pokemon_info[0], name: pokemon_info[1], type: pokemon_info[2], db: db)
 end
 
-def alter_hp
+def alter_hp(hp, id)
   UPDATE Pokemon
   SET hp = 59
   WHERE name = Pikachu;
