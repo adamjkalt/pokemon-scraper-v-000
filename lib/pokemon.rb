@@ -23,7 +23,7 @@ end
 def alter_hp(hp, db)
   UPDATE db
   SET hp = 59
-  WHERE name = Pikachu;
+  WHERE name = Pikachu; name = Magikarp
 end
 
 end
