@@ -21,6 +21,9 @@ def self.find(id, db)
 end
 
 def alter_hp
+  UPDATE Pokemon
+  SET hp = 59
+  WHERE name = Pikachu;
 end
 
 end
